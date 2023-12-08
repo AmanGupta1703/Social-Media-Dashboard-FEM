@@ -1,0 +1,37 @@
+.dark {
+	color: var(--clr-dark-theme-white-text);
+	background-color: var(--clr-dark-theme-02);
+}
+
+.dark .header::before {
+	transition: all 0.9s ease-in-out;
+}
+
+.dark .header::before {
+	content: "";
+	background-color: var(--clr-dark-theme-01);
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	width: 100%;
+	height: 35vh;
+}
+
+.dark .card__followers__number,
+.dark .overview__heading {
+	color: var(--clr-dark-theme-white-text);
+}
+
+.dark .card--stats,
+.dark .overview__card {
+	background-color: var(--clr-dark-theme-03);
+}
+
+.dark .card__name,
+.dark .overview__top__text,
+.dark .card__followers__text {
+	color: var(--clr-dark-theme-text);
+}
